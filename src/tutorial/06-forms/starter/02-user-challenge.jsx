@@ -44,7 +44,7 @@ const UserChallenge = () => {
           submit
         </button>
       </form>
-      <h2>users</h2>
+      <h2>Users</h2>
       {users.map((user) => {
         return (
           <div key={user.id}>
